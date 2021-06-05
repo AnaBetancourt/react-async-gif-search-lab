@@ -6,7 +6,7 @@ export default function GifList(props){
         <div>
             <ul>
                 {props.gifArr.map(gif => {
-                    return <li><img src={gif} alt="a gif"></img></li>
+                    return <li><img src={gif} alt="gif"></img></li>
                 })}
             </ul>
         </div>
